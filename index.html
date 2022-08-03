@@ -11,21 +11,24 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->     
+        <![endif]--> 
+        
+        <div id="wrapper"> 
             <div class="form-inline" >
                 <label for="inputString">What is the input string?</label>
                 <input type="text" id="inputText" placeholder="Enter string" name="inputText">
                
-                <button type="submit" onclick="displayText()" >Submit</button>
+                <button type="submit" onclick="displayText()" >Submit</button>              
             </div>
 
-            <p id="displayText"></p>          
-
-        </div>        
+            <div class="form-inline"><p id="displayText"></p></div>                     
+            
+        </div>         
         <script src="" async defer></script>
         <script>
             function displayText(){

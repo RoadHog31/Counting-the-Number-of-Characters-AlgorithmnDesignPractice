@@ -1,10 +1,29 @@
- /* div#wrapper{
+  /* div#wrapper{
 
     margin:auto;
     background:white;
     width:800px;
     height: 1000px;
-}   */
+}    */
+
+/* div#wrapper{
+
+  position:absolute;
+  top:calc(50% - 3em);
+  left:calc(50% - 9em);
+  width:18em;
+  height:6em;
+
+} */
+
+div#wrapper{
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
 
 body {font-family: Arial, Helvetica, sans-serif;}
  * {box-sizing: border-box;} 
@@ -13,6 +32,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center; 
+  margin:auto; 
+  
 }
 
 .form-inline label {
