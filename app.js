@@ -31,4 +31,4 @@ else {
       
 }
 
-
+//TODO - make it not include spaces in the character count?
