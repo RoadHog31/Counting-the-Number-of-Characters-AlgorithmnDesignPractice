@@ -40,7 +40,9 @@
                 if (innerText !== null && innerText !== '') {
     
                 document.getElementById("displayText").innerHTML = `${innerText} has ${innerText.length} characters`;
-                }
+
+                document.getElementById("inputText").value = "";
+                }                
                 else {
 
                     //Selection and Iteration
@@ -49,6 +51,7 @@
                         let innerText = prompt(`No string or characters have been entered?` + ` `);
                         // console.log(`No string or characters have been entered`);
                         document.getElementById("displayText").innerHTML = `${innerText} has ${innerText.length} characters`;
+                        document.getElementById("inputText").value = "";
                         
                     }
                     
