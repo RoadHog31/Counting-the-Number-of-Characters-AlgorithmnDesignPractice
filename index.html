@@ -30,15 +30,17 @@
         <script>
             function displayText(){
 
+                //Assignment of inputs
                 let innerText = document.getElementById("inputText").value;
 
+                //Selection
                 if (innerText !== null && innerText !== '') {
     
                 document.getElementById("displayText").innerHTML = `${innerText} has ${innerText.length} characters`;
                 }
                 else {
 
-                    //Iteration
+                    //Selection and Iteration
                     if (innerText === null || innerText === '') {
 
                         let innerText = prompt(`No string or characters have been entered?` + ` `);
