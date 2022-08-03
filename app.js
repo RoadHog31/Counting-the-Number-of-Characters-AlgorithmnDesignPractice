@@ -27,7 +27,6 @@ else {
         console.log(`${inputString} has ${inputString.length} characters`);
         
     }
-
       
 }
 
