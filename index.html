@@ -23,10 +23,13 @@
                 <label for="inputString">What is the input string?</label>
                 <input type="text" id="inputText" placeholder="Enter string" name="inputText">
                
-                <button type="submit" onclick="displayText()" >Submit</button>              
+                <button type="submit" onclick="displayText()">Submit</button>              
             </div>
 
-            <div class="form-inline"><p id="displayText"></p></div>             
+            <div class="form-inline">                
+                <i id="quoteIcon" class="fas fa-quote-left fa-2x fa-pull-left" style="display:none;"></i>
+                <p id="displayText"></p>
+            </div>             
             
         </div>         
         <script src="" async defer></script>
@@ -38,10 +41,14 @@
 
                 //Selection
                 if (innerText !== null && innerText !== '') {
-    
+                
+                const quoteIcon = document.getElementById("quoteIcon");
+                quoteIcon.style.display = "block";
+                
                 document.getElementById("displayText").innerHTML = `${innerText} has ${innerText.length} characters`;
-
+                
                 document.getElementById("inputText").value = "";
+                
                 }                
                 else {
 
@@ -50,7 +57,10 @@
 
                         let innerText = prompt(`No string or characters have been entered?` + ` `);
                         // console.log(`No string or characters have been entered`);
-                        document.getElementById("displayText").innerHTML = `${innerText} has ${innerText.length} characters`;
+                        const quoteIcon = document.getElementById("quoteIcon");
+                        quoteIcon.style.display = "block";
+                        document.getElementById("displayText").innerHTML = `${innerText} has ${innerText.length} characters`;                        
+                        quoteIcon.style.Visibility = "visible";
                         document.getElementById("inputText").value = "";
                         
                     }
