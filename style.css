@@ -98,7 +98,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   /* display: inline-block; */
-      /* font-size: 10px; */
+       font-size: 40px; 
 }
 
 @keyframes textclip {
