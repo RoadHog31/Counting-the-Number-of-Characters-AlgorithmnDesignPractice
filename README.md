@@ -1,4 +1,4 @@
-# Exercises for Programmers 57 Challenges to develop your coding skills
+# Exercises for Programmers - 57 Challenges to develop your coding skills
 # 2. Counting-the-Number-of-Characters
 
 Brief: 
