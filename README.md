@@ -1,5 +1,5 @@
 # Exercises for Programmers 57 Challenges to develop your coding skills
-# 2. Counting-the-Number-of-Characters-AlgorithmnDesignPractice
+# 2. Counting-the-Number-of-Characters
 
 Brief: 
 Create a program that prompts for an input string and displays output that shows the input string and the number of
